@@ -17,6 +17,10 @@
   color: #e8e8e8;
 }
 
+.header__logo-link:hover{
+  color: #fff;
+}
+
 .header__logo-img{
   width: 70px;
   margin: 0 5px;
@@ -38,6 +42,9 @@
 
 .header__search-input:focus{
   outline: none;
+  background-color: #202020;
+  border: 1px solid #202020;
+  color: #fff;
 }
 
 
@@ -53,4 +60,8 @@
   background-color: var(--color--btn);
   color: #fff;
   padding: 15px 50px;
+}
+
+.header__login:hover{
+  background-color: #007dfc;
 }
