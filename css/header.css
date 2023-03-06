@@ -1,3 +1,7 @@
+.header_container{
+  background-color: var(--color--primary);
+}
+
 .header{
   display: flex;
   padding: 10px;
@@ -7,6 +11,10 @@
   display: flex;
   align-items: center;
   margin: 0 50px 0 0;
+  font-weight: 600;
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: #e8e8e8;
 }
 
 .header__logo-img{
@@ -14,9 +22,35 @@
   margin: 0 5px;
 }
 
+.header__search-input{
+  width: 200px;
+  padding: 8px 40px;
+  border-radius: 30px;
+  background-image: url(../img/search.svg);
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  background-position: 15px 50%;
+  background-color: #121212;
+  color: var(--color--text);
+  font-size: .85rem;
+  border: 1px solid #121212;
+}
+
+.header__search-input:focus{
+  outline: none;
+}
+
+
 .header__nav{
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.header__login{
+  text-decoration: none;
+  background-color: var(--color--btn);
+  color: #fff;
+  padding: 15px 50px;
 }
