@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
 
 :root{
   --color--primary: #2a2a2a;
@@ -8,9 +8,25 @@
 
 *{
   font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container{
   max-width: 1200px;
   margin: auto;
+}
+
+.header__btn{
+  width: 150px;
+  text-decoration: none;
+  background-color: var(--color--btn);
+  color: #fff;
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.header__btn:hover{
+  background-color: #007dfc;
 }
