@@ -12,8 +12,7 @@
 
 .img_footer {
   display: flex;
-  margin: auto;
-  width: 150px;
+  width: 200px;
 }
 
 .politicas_tienda {
@@ -22,7 +21,6 @@
 }
 
 .link_footer {
-  text-align: center;
   padding: 5px 0;
   text-decoration: none;
   color: #e7e7e7;
