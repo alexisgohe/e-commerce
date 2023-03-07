@@ -1,13 +1,13 @@
-.header_container{
+.header_container {
   background-color: var(--color--primary);
 }
 
-.header{
+.header {
   display: flex;
   padding: 10px;
 }
 
-.header__logo-link{
+.header__logo-link {
   display: flex;
   align-items: center;
   margin: 0 50px 0 0;
@@ -17,16 +17,16 @@
   color: #e8e8e8;
 }
 
-.header__logo-link:hover{
+.header__logo-link:hover {
   color: #fff;
 }
 
-.header__logo-img{
+.header__logo-img {
   width: 70px;
   margin: 0 5px;
 }
 
-.header__search-input{
+.header__search-input {
   width: 250px;
   padding: 8px 40px;
   border-radius: 30px;
@@ -36,18 +36,18 @@
   background-position: 15px 50%;
   background-color: #121212;
   color: var(--color--text);
-  font-size: .85rem;
+  font-size: 0.85rem;
   border: 1px solid #121212;
 }
 
-.header__search-input:focus{
+.header__search-input:focus {
   outline: none;
   background-color: #202020;
   border: 1px solid #202020;
   color: #fff;
 }
 
-.header__nav{
+.header__nav {
   width: 100%;
   display: flex;
   align-items: center;

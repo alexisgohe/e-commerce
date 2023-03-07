@@ -1,0 +1,66 @@
+.footer {
+  background-color: #202020;
+  color: var(--color--text);
+}
+
+.informacion_footer {
+  padding: 30px 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.img_footer {
+  display: flex;
+  margin: auto;
+  width: 150px;
+}
+
+.politicas_tienda {
+  display: flex;
+  flex-direction: column;
+}
+
+.link_footer {
+  text-align: center;
+  padding: 5px 0;
+  text-decoration: none;
+  color: #e7e7e7;
+}
+
+.link_footer:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--color--btn);
+  text-decoration-thickness: 2.5px;
+}
+
+.contacto_tienda{
+  padding: 10px;
+}
+
+.form_footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.nombre_input,
+.mensaje_textarea {
+  margin: 10px 0;
+  padding: 10px 5px;
+  background-color: #131313;
+  color: var(--color--text);
+  font-size: 0.85rem;
+  border: 1px solid #535353;
+  resize: none;
+}
+
+.nombre_input:focus,
+.mensaje_textarea:focus{
+  border: 1px solid #fff;
+}
+
+.copyright_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
