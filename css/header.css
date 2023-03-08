@@ -5,6 +5,11 @@
 .header {
   display: flex;
   padding: 10px;
+  height: 70px;
+}
+
+.header__logo{
+  margin: auto;
 }
 
 .header__logo-link {
