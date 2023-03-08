@@ -25,3 +25,13 @@
   font-size: 1.375rem;
   font-weight: 700;
 }
+
+@media (max-width: 341px) {
+  .banner_h2{
+    font-size: 1.5rem;
+  }
+.banner_text{
+  font-size: .8rem;
+
+}
+}

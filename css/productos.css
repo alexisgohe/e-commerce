@@ -49,3 +49,27 @@
   font-weight: bold;
   padding: 5px 0;
 }
+
+@media (max-width: 1146px) {
+  .disable{
+    display: none;
+  }
+}
+
+@media (max-width: 956px) {
+  .disable-2{
+    display: none;
+  }
+}
+
+@media (max-width: 766px) {
+  .container-product {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .container-product {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+}
