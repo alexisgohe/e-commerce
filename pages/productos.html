@@ -5,9 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/universales.css" />
-    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/header_productos.css" />
     <link rel="stylesheet" href="../css/t_productos.css" />
     <link rel="stylesheet" href="../css/footer.css" />
+    <script
+      src="https://kit.fontawesome.com/2d44b22bdb.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
     <title>Productos</title>
   </head>
   <body>
@@ -31,13 +36,12 @@
               placeholder="¿Qué deseas buscar?"
             />
           </div>
-          <a class="header__btn" href="./pages/login.html">Login</a>
-          <a class="search-icon" href="#"
-            ><img
-              class="img_search"
-              src="../img/search.svg"
-              alt="Icono de Buscar"
-          /></a>
+          <a class="logout_icon disable_search" href="#"
+            ><i class="fa-solid fa-magnifying-glass img_search"></i
+          ></a>
+          <a class="logout_icon" href="./pages/login.html"
+            ><i class="fa-solid fa-arrow-right-to-bracket"></i
+          ></a>
         </nav>
       </div>
     </header>
@@ -45,7 +49,7 @@
       <div class="products_c container">
         <div class="text-nav">
           <h3>Todos los productos</h3>
-          <a class="header__btn" href="#">Agregar producto ></a>
+          <a class="header__btn tamaño_btn" href="./agregar.html">Agregar producto</a>
         </div>
         <div class="container-product">
           <div class="product">

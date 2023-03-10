@@ -10,9 +10,8 @@
 
 .img_footer {
   display: flex;
-  margin: auto;
+  margin: 0 20px;
   width: 50%;
-  width: 200px;
 }
 
 .informacion_izq {
@@ -24,6 +23,7 @@
 
 .contacto_tienda {
   width: 50%;
+  padding: 10px;
 }
 
 .politicas_tienda {
@@ -67,16 +67,15 @@
   padding: 20px 0;
 }
 
-.contacto_tienda {
-  padding: 10px;
-}
-
 .form_footer {
   display: flex;
   flex-direction: column;
 }
 
 @media (max-width: 956px) {
+  .contacto_tienda{
+    padding-top: 50px;
+  }
   .informacion_footer {
     align-items: center;
   }
@@ -92,6 +91,12 @@
 }
 
 @media (max-width: 766px) {
+  .politicas_tienda{
+    width: 100%;
+  }
+  .header__btn{
+    width: 100%;
+  }
   .informacion_footer{
     flex-direction: column;
   }

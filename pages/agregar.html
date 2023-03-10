@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/universales.css" />
+    <link rel="stylesheet" href="../css/header_productos.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <script
+      src="https://kit.fontawesome.com/2d44b22bdb.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <title>Agregar Producto</title>
+  </head>
+  <body>
+    <header class="header_container">
+      <div class="header container">
+        <div class="header__logo">
+          <a class="header__logo-link" href="/">
+            <img
+              class="header__logo-img"
+              src="../img/logo.png"
+              alt="Logo Developers Code"
+            />
+            Shop
+          </a>
+        </div>
+        <nav class="header__nav">
+          <div class="header__search">
+            <input
+              class="header__search-input"
+              type="text"
+              placeholder="¿Qué deseas buscar?"
+            />
+          </div>
+          <a class="logout_icon disable_search" href="#"
+            ><i class="fa-solid fa-magnifying-glass img_search"></i
+          ></a>
+          <a class="logout_icon" href="./login.html"
+            ><i class="fa-solid fa-arrow-right-to-bracket"></i
+          ></a>
+        </nav>
+      </div>
+    </header>
+    <section class="productos_container">
+      <h2>Agregar nuevo producto</h2>
+      <div class="subir_img">
+        <div class="arrastar_img">
+          <i class="fa-regular fa-image"></i>
+          <span>Arraste para agregar una imagen para el producto</span>
+        </div>
+        <div class="buscar_pc">
+          <span>Busque en su computador</span>
+        </div>
+      </div>
+      <form action="#">
+        <select name="Categoria">
+          <option value="">Recomendados</option>
+          <option value="">Tarjetas de regalo</option>
+          <option value="">Diversos</option>
+        </select>
+        <input type="text" name="Producto" placeholder="Nombre del producto" />
+        <input type="text" name="Precio" placeholder="Precio del producto" />
+        <textarea
+          name="Descripcion"
+          placeholder="Descripcion del producto"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <a class="header__btn" href="#">Agregar Producto</a>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="informacion_footer container">
+        <div class="informacion_izq">
+          <img
+            class="img_footer"
+            src="../img/logo_2.png"
+            alt="Logo Developers Code"
+          />
+          <div class="politicas_tienda">
+            <a class="link_footer" href="#">Quienes Somos</a>
+            <a class="link_footer" href="#">Politicas de privacidad</a>
+            <a class="link_footer" href="#">Programa de fidelidad</a>
+            <a class="link_footer" href="#">Nuestras tiendas</a>
+            <a class="link_footer" href="#">Quiero ser franquiciado</a>
+            <a class="link_footer" href="#">Anunciate aquí</a>
+          </div>
+        </div>
+        <div class="contacto_tienda">
+          <span>Hable con nosotros</span>
+          <form class="form_footer" action="">
+            <input
+              class="nombre_input"
+              type="text"
+              name="Nombre"
+              placeholder="Nombre"
+            />
+            <textarea
+              class="mensaje_textarea"
+              name="mensaje"
+              cols="30"
+              rows="5"
+              placeholder="Escribe tu mensaje"
+            ></textarea>
+            <a class="header__btn" href="#">Enviar mensaje</a>
+          </form>
+        </div>
+      </div>
+      <div class="copyright_footer container">
+        <span>Desarrollado por AGH</span>
+        <span>2023</span>
+      </div>
+    </footer>
+  </body>
+</html>
