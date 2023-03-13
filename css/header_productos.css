@@ -90,6 +90,12 @@
   .img_search {
     width: 25px;
   }
+  .header__nav {
+    justify-content: end;
+  }
+  .logout_icon {
+    margin: 0 5px;
+  }
   .header__search-input {
     display: none;
   }
@@ -106,10 +112,6 @@
     margin: 0 10px 0 0;
   }
   .logout_icon {
-    font-size: 0.5rem;
-    margin: 0 5px;
-  }
-  .header__nav {
-    justify-content: center;
+    font-size: 1rem;
   }
 }

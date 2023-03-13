@@ -4,17 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="../css/universales.css" />
-    <link rel="stylesheet" href="../css/header_productos.css" />
-    <link rel="stylesheet" href="../css/agregar.css" />
-    <link rel="stylesheet" href="../css/footer.css" />
     <script
       src="https://kit.fontawesome.com/2d44b22bdb.js"
       crossorigin="anonymous"
       defer
     ></script>
-    <title>Agregar Producto</title>
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/universales.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <title>Grand Theft Auto V</title>
   </head>
   <body>
     <header class="header_container">
@@ -37,45 +36,12 @@
               placeholder="¿Qué deseas buscar?"
             />
           </div>
-          <a class="logout_icon disable_search" href="#"
-            ><i class="fa-solid fa-magnifying-glass img_search"></i
-          ></a>
-          <a class="logout_icon" href="./login.html"
-            ><i class="fa-solid fa-arrow-right-to-bracket"></i
-          ></a>
+          <a class="header__btn" href="./login.html">Login</a>
+          <a class="search-icon" href="#"><img class="img_search" src="../img/search.svg" alt="Icono de Buscar"></a>
         </nav>
       </div>
     </header>
-    <section class="productos_container">
-      <h2 class="productos_h2">Agregar nuevo producto</h2>
-      <div class="subir_img">
-        <div class="arrastar_img">
-          <i class="fa-regular fa-image"></i>
-          <span>Arraste para agregar una imagen para el producto</span>
-        </div>
-        <span>O</span>
-        <div class="buscar_pc">
-          <span>Busque en su computador</span>
-        </div>
-      </div>
-      <form action="#">
-        <select class="producto_input" name="Categoria">
-          <option value="">Recomendados</option>
-          <option value="">Tarjetas de regalo</option>
-          <option value="">Diversos</option>
-        </select>
-        <input class="producto_input" type="text" name="Producto" placeholder="Nombre del producto" />
-        <input class="producto_input" type="text" name="Precio" placeholder="Precio del producto" />
-        <textarea
-          class="producto_input"
-          name="Descripcion"
-          placeholder="Descripcion del producto"
-          cols="30"
-          rows="10"
-        ></textarea>
-        <a class="header__btn product_btn" href="#">Agregar Producto</a>
-      </form>
-    </section>
+
     <footer class="footer">
       <div class="informacion_footer container">
         <div class="informacion_izq">
